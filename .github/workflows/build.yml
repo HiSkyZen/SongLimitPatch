@@ -1,4 +1,4 @@
-name: MSBuild
+name: Build
 
 on:
   push:
@@ -41,5 +41,5 @@ jobs:
     - name: Upload
       uses: actions/upload-artifact@v3.1.2
       with:
-        name: dlls
-        path: ./*
+        name: SongLimitPatch.dll
+        path: .\x64\Release\Songs300Plus.dll
