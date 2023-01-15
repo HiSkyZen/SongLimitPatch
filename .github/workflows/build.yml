@@ -2,9 +2,9 @@ name: Build
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "nova" ]
   pull_request:
-    branches: [ "main" ]
+    branches: [ "nova" ]
 
 env:
   # Path to the solution file relative to the root of the project.
